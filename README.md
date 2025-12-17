@@ -29,7 +29,7 @@ A C++ text file analysis tool implementing, file handling, hash-based frequency 
    
 # HOW TO RUN THE PROJECT
   1. Clone the repository
-     <repo link>
+     <https://github.com/prernaharsh25-oss/file-statistics-analyzer-cpp>
   2. Compile the code
      g++ main.cpp -o analyzer
   4. Run the executable
