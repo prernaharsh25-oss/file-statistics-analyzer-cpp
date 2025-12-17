@@ -15,8 +15,8 @@ string toLower(string s) {
 }
 //preparing a statistics for our input file
 void Show_statistics(unordered_map<string,int>&wordcount) {
-    int totalWords = 0;
-    string longestWord = "";
+    int totalWords=0;
+    string longestWord="";
 
     //going through each word in the map
     for (const auto&entry :wordcount) {
@@ -31,7 +31,7 @@ void Show_statistics(unordered_map<string,int>&wordcount) {
     }
     //finding overall average word length in our file
     double avgWordLength = 0;
-    if (totalWords != 0 && wordcount.size()!= 0) {
+    if (totalWords!= 0 && wordcount.size()!= 0) {
         int sumLengths = 0;
         for (const auto &entry:wordcount) {
             sumLengths+=entry.first.length();
@@ -105,7 +105,7 @@ int main(){
             search=toLower(search);
 
             int count=0;
-            for(auto entry : frequency_dict){
+            for(auto entry :frequency_dict){
                 if(toLower(entry.first)==search){
                     count+=entry.second;
                 }
