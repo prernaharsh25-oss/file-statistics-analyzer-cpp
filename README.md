@@ -31,13 +31,9 @@ A C++ text file analysis tool implementing, file handling, hash-based frequency 
   1. Clone the repository
      <repo link>
   2. Compile the code
-     ```bash
      g++ main.cpp -o analyzer
-     ```
   4. Run the executable
-     ```bash
      ./analyzer
-     ```
   6. input file in the same directory
 
 # FUTURE IMPROVEMENTS
