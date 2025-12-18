@@ -72,8 +72,11 @@ A C++ text file analysis tool implementing, file handling, hash-based frequency 
 
 # FUTURE IMPROVEMENTS
  Add sentence and paragraph analysis
+ 
  Support multiple file formats
+ 
  Export statistics to a separate output file
+
  Add a menu-driven interface
 
      
