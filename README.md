@@ -31,9 +31,11 @@ A C++ text file analysis tool implementing, file handling, hash-based frequency 
   1. Clone the repository
      <https://github.com/prernaharsh25-oss/file-statistics-analyzer-cpp>
   2. Compile the code
-     g++ main.cpp -o analyzer
+
+         g++ main.cpp -o analyzer
   4. Run the executable
-     ./analyzer
+
+         ./analyzer
   6. input file in the same directory
 
 # SAMPLE OUTPUT
