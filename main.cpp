@@ -38,7 +38,7 @@ void Show_statistics(unordered_map<string,int>&wordcount) {
         }
         avgWordLength=(double)sumLengths/wordcount.size();
     }
-
+    cout<<"---------------------\n");
     cout<<"   FILE STATISTICS\n";
     cout<<"----------------------\n";
     cout<<"Total words        : "<<totalWords<<endl;
@@ -83,7 +83,8 @@ int main(){
     /*user will be given a choice to either view the file 
     statistics or search the desired word*/
     int main_choice;
-    cout<<"      WELCOME"<<endl;
+    cout<<"\n     WELCOME"<<endl;
+    cout<<"      -------\n";
     cout<<"1.Search a Word "<<endl;
     cout<<"2.View file statistics"<<endl;
     cin>>main_choice;
