@@ -1,7 +1,7 @@
 # file-statistics-analyzer-cpp
 
 # PROJECT DISCRIPTION
-A C++ text file analysis tool implementing, file handling, hash-based frequency mapping and string processing to display word statistics.
+A C++ text file analysis tool implementing file handling, hash-based frequency mapping and string processing to display word statistics.
 
 # FEATURES
   # Word Frequency Analysis 
